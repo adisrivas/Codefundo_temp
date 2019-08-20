@@ -1,0 +1,32 @@
+{
+  "name": "codefundo-blockchain",
+  "version": "1.0.0",
+  "description": "codefundo++ blockchain based Voting system",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sauravskv07/Block-chain-based-Voting-System.git"
+  },
+  "keywords": [
+    "blockchain",
+    "voting",
+    "erc20token"
+  ],
+  "author": "sauravskv07",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sauravskv07/Block-chain-based-Voting-System/issues"
+  },
+  "homepage": "https://github.com/Sauravskv07/Block-chain-based-Voting-System#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "truffle-contract": "^4.0.28",
+    "web3": "^1.2.1"
+  }
+}
