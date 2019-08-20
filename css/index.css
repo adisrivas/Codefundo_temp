@@ -1,0 +1,449 @@
+html {
+  font-size: inherit;
+}
+body {
+  height: inherit !important;
+  width: 100%;
+  overflow-x: hidden;
+}
+nav {
+  height: 135px;
+  background: transparent;
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  transition: all ease 0.5s;
+}
+.form-register {
+    padding: 30px;
+    margin: 25em 25%;
+    border: 1px solid #fff;
+    border-radius: 15px;
+}
+.cc1 {
+    background-image: url('pic2.jpg');
+    position: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    height: 445px;
+}
+.main {
+  margin: auto;
+  max-width: 1400px;
+  min-width: 300px
+}
+.nav-class {
+  padding: 50px 200px 15px 120px;
+  transition: all ease 0.5s;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.nav-class1 {
+  color: #fff;
+  list-style: none;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-radius: 16px;
+  padding: 20px 45px;
+  background-color: #f68b44;
+}
+.icon {
+  display: none;
+  transition: all ease 0.5s;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.nav-cont {
+    background: transparent !important;
+    position: fixed !important;
+    width: 100%;
+    padding-left: 0;
+    height: 135px;
+    padding-right: 0;
+    z-index: 999999999;
+    transition: all ease 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.default {
+  padding: 0;
+  margin: 0;
+}
+.heading {
+  position: absolute;
+  top: 21em;
+  width: 100%;
+  text-align: center;
+}
+.border {
+  position: relative;
+  font-size: 40px;
+  letter-spacing: 10px;
+  border-radius: 10px;
+  padding: 25px;
+  color: #fff;
+  font-family: 'Noto Serif JP', sans-serif;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.4), 0px 0px 12px rgba(0,0,0,0.1), 0px 20px 20px rgba(0,0,0,0.1);
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1)
+}
+.parallaax {
+  position: absolute;
+  top: 100%;
+  background-color: #fff;
+  z-index: 99;
+  background-image: linear-gradient(to bottom right,#ece9e6,#ffffff);
+  width: -webkit-fill-available;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 6px 0px rgba(0, 0, 0, 0.16), 0 1px 8px 5px rgba(0, 0, 0, 0.4);
+}
+.buttoncls {
+  text-align: center;
+  padding-top: 34em;
+}
+.btn-group-lg>.btn, .btn-lg {
+    border: 1px solid cadetblue;
+    padding: 25px 50px;
+    font-size: 20px;
+    line-height: 1.3333333;
+    border-radius: 45px;
+    box-shadow: inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17), inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15), inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+}
+a:hover {    
+  color: #9C27B0;
+  text-decoration: none;
+  border: 2px solid #9c27B0;
+  transition: all ease 0.5s;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #2979FF;
+}
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #3369ff;
+    border-color: #122b40;
+}
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #3369ff;
+    border-color: #204d74;
+    box-shadow: inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15), inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #286090;
+    border: 1px;
+}
+.navv1{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    padding-right: 0
+}
+
+@media only screen and (max-width:1024px) {
+nav {
+  display: none;
+}
+nav.shrink {
+  position: absolute;
+  top: 64%;
+  right: 9%;
+  height: 240px;
+  transition: all ease 0.5s;
+  background: #272727;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+  z-index: 999999;
+  width: 32em;
+}
+li:hover {
+  background-color: #333;
+}
+.navv1 {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    display: block;
+}
+.icon {
+  display: block;
+  width: fit-content;
+  margin: 0 0 0 80%;
+  height: 125px;
+  padding-top: 50px;
+  transition: all ease 0.5s;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.nav-cont {
+    position: fixed !important;
+    width: 100%;
+    z-index: 999999999;
+    height: 125px;
+    transition: all ease 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.nav-class {
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+nav.shrink .nav-class {
+    position: relative;
+    transition: all ease 0.5s;
+    height: 60px;
+    width: 100%;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+nav.shrink .nav-class1 {
+    transition: all ease 0.5s;
+    display: block;
+    width: 100%;
+    height: 40px !important;
+    padding-top: 20px;
+    padding-left: 35px;
+}
+
+@media (max-width: 650px) {
+.parallaax {
+    position: relative;
+    top: 100%;
+    background-color: #fff;
+    z-index: 0;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right,#ece9e6,#ffffff);
+    width: -webkit-fill-available;
+}
+nav {
+  display: none;
+}
+.navv1 {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    display: block;
+}
+.cc1 {
+    background-image: url(../img/clock-tower.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative !important;
+    min-height: 100%;
+    height: 445px;
+}
+.icon {
+  display: block;
+  width: fit-content;
+  margin: 0 0 0 80%;
+  height: 125px;
+  padding-top: 50px;
+  transition: all ease 0.5s;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.nav-cont {
+    position: fixed !important;
+    width: 100%;
+    z-index: 999999999;
+    height: 125px;
+    transition: all ease 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+nav.shrink {
+  position: absolute;
+  top: 64%;
+  right: 6%;
+  height: 240px;
+  transition: all ease 0.5s;
+  background: #272727;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+  z-index: 999999;
+  width: 30em;
+}
+li:hover {
+  background-color: #333;
+}
+.nav-cont {
+    position: fixed !important;
+    width: 100%;
+    z-index: 999999999;
+    height: 125px;
+    transition: all ease 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.nav-class {
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+nav.shrink .nav-class {
+    position: relative;
+    transition: all ease 0.5s;
+    height: 60px;
+    width: 100%;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+nav.shrink .nav-class1 {
+    transition: all ease 0.5s;
+    display: block;
+    width: 100%;
+    height: 40px !important;
+    padding-top: 20px;
+    padding-left: 35px;
+}
+}
+@media only screen and (max-width:460px) {
+nav {
+  display: none;
+}
+.parallaax {
+    padding-top: 1em;
+    position: relative;
+    top: 100%;
+    background-color: #fff;
+    z-index: 0;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right,#ece9e6,#ffffff);
+    width: -webkit-fill-available;
+}
+p {
+    font-size: 19px;
+    font-family: 'Cairo',sans-serif;
+    line-height: 1.5;
+}
+.cc1 {
+    background-image: url(../img/clock-tower.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative !important;
+    min-height: 100%;
+    height: 445px;
+}
+.navv1 {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    display: block;
+}
+.icon {
+  display: block;
+  width: fit-content;
+  margin: 0 0 0 70%;
+  height: 125px;
+  padding-top: 50px;
+  transition: all ease 0.5s;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.nav-cont {
+    position: fixed !important;
+    width: 100%;
+    z-index: 999999999;
+    height: 125px;
+    transition: all ease 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+nav.shrink {
+  position: absolute;
+  top: 64%;
+  right: 14%;
+  height: 240px;
+  transition: all ease 0.5s;
+  background: #272727;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+  z-index: 999999;
+  width: 20em;
+}
+li:hover {
+  background-color: #333;
+}
+.nav-cont {
+    position: fixed !important;
+    width: 100%;
+    z-index: 999999999;
+    height: 125px;
+    transition: all ease 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.heading {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.nav-class {
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+nav.shrink .nav-class {
+    position: relative;
+    transition: all ease 0.5s;
+    height: 60px;
+    width: 100%;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+nav.shrink .nav-class1 {
+    transition: all ease 0.5s;
+    display: block;
+    width: 100%;
+    height: 40px !important;
+    padding-top: 20px;
+    padding-left: 35px;
+}
+}
